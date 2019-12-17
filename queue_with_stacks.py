@@ -70,3 +70,4 @@ class PseudoQueue:
         while self.stack2.top != None:
             self.stack1.push(self.stack2.pop())
         return pop_val
+        
